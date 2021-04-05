@@ -48,7 +48,5 @@
 
 $imageUrl = getDataFromApi();
 
-// https://pictures.abebooks.com/isbn/9780273790037-usXXX.jpg
-// https://justbookr.com/api/v1/books
 $result = validateImageUrl('https://pictures.abebooks.com/isbn/9780273790037-us.jpg');
 var_dump($result);
